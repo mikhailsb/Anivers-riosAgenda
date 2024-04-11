@@ -16,9 +16,11 @@ namespace AniversáriosAgenda.BancoDeDados
         {
             try
             {
-                stringDeConexao = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BancoDeDados\Aniversariantes.mdf;Integrated Security=True";
+                //stringDeConexao = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BancoDeDados\Aniversariantes.mdf;Integrated Security=True";
+                stringDeConexao = @"Server=.\sqlexpress;Database=Aniversariantes;Trusted_Connection=True;";
+                //stringDeConexao = @"Server=localhost;Database=Aniversariantes;Trusted_Connection=True";
+                                  //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BancoDeDados\Aniversariantes.mdf;Integrated Security=True
                 conn = new SqlConnection(stringDeConexao);
-                conn.Open();
             }
             catch (Exception ex)
             {
@@ -30,9 +32,11 @@ namespace AniversáriosAgenda.BancoDeDados
         {
             try
             {
+                conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.CommandTimeout = 0;
                 var read = cmd.ExecuteNonQuery();
+                conn.Close();
                 return "";
             }
             catch (Exception ex)
@@ -45,10 +49,12 @@ namespace AniversáriosAgenda.BancoDeDados
             DataTable dt = new DataTable();
             try
             {
+                conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.CommandTimeout = 0;
                 var read = cmd.ExecuteReader();
                 dt.Load(read);
+                conn.Close();
                 return dt;
             }
             catch (Exception ex)

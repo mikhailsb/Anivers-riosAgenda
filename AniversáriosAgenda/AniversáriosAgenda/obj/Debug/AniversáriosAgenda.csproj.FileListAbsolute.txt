@@ -11,3 +11,16 @@ E:\Projetos\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgend
 E:\Projetos\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.csproj.CoreCompileInputs.cache
 E:\Projetos\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.exe
 E:\Projetos\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.pdb
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\bin\Debug\BancoDeDados\Aniversariantes.mdf
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\bin\Debug\BancoDeDados\Aniversariantes_log.ldf
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\bin\Debug\AniversáriosAgenda.exe.config
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\bin\Debug\AniversáriosAgenda.exe
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\bin\Debug\AniversáriosAgenda.pdb
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.csproj.AssemblyReference.cache
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.Forms.frmCadastroAniversariantes.resources
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.frmPrincipal.resources
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.Properties.Resources.resources
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.csproj.GenerateResource.cache
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.csproj.CoreCompileInputs.cache
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.exe
+E:\Projetos\Anivers-riosAgenda\AniversáriosAgenda\AniversáriosAgenda\obj\Debug\AniversáriosAgenda.pdb

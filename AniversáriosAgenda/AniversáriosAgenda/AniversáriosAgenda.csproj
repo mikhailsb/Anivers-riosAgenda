@@ -67,6 +67,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AniversariantesDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="BancoDeDados\CadastrarCliente.cs" />
     <Compile Include="BancoDeDados\LocalDB.cs" />
     <Compile Include="Classe\Aniversariante.cs" />
     <Compile Include="Forms\frmCadastroAniversariantes.cs">

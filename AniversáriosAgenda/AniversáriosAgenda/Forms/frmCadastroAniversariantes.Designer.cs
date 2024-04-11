@@ -35,7 +35,7 @@ namespace AniversáriosAgenda.Forms
             this.label2 = new System.Windows.Forms.Label();
             this.dtpData = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtDrescricao = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -86,13 +86,13 @@ namespace AniversáriosAgenda.Forms
             this.label3.TabIndex = 4;
             this.label3.Text = "Descrição";
             // 
-            // txtDrescricao
+            // txtDescricao
             // 
-            this.txtDrescricao.Location = new System.Drawing.Point(12, 123);
-            this.txtDrescricao.Multiline = true;
-            this.txtDrescricao.Name = "txtDrescricao";
-            this.txtDrescricao.Size = new System.Drawing.Size(327, 137);
-            this.txtDrescricao.TabIndex = 5;
+            this.txtDescricao.Location = new System.Drawing.Point(12, 123);
+            this.txtDescricao.Multiline = true;
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(327, 137);
+            this.txtDescricao.TabIndex = 5;
             // 
             // btnCadastrar
             // 
@@ -121,7 +121,7 @@ namespace AniversáriosAgenda.Forms
             this.ClientSize = new System.Drawing.Size(351, 329);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.txtDrescricao);
+            this.Controls.Add(this.txtDescricao);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.label2);
@@ -132,6 +132,7 @@ namespace AniversáriosAgenda.Forms
             this.MinimizeBox = false;
             this.Name = "frmCadastroAniversariantes";
             this.Text = "Cadastrar Aniversariante";
+            this.Load += new System.EventHandler(this.frmCadastroAniversariantes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,7 +145,7 @@ namespace AniversáriosAgenda.Forms
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dtpData;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtDrescricao;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Button btnCancelar;
     }
